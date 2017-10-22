@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['ccxdelay25us',['ccxDelay25us',['../group__groupCCx.html#ga3ecc0c711633c6e55b615a1843ac87b9',1,'ccx_api.h']]],
+  ['ccxerrorlog',['ccxErrorLog',['../group__groupCCx.html#ga2e41df7efa7496e321ec4748e6144aee',1,'ccx_api.h']]],
+  ['ccxinit',['ccxInit',['../group__groupCCx.html#ga937f8c95b1e2595e17b08cff0443e8bb',1,'ccx_api.h']]],
+  ['ccxquickstartinit',['ccxQuickstartInit',['../group__groupQuickstart.html#ga95291b306b3de61adfeb9edc967b1264',1,'ccx_quickstart.h']]],
+  ['ccxquickstartreceivevariablelength',['ccxQuickstartReceiveVariableLength',['../group__groupQuickstart.html#ga404a81e3a35726c04865315d3db01c69',1,'ccx_quickstart.h']]],
+  ['ccxquickstartshutdown',['ccxQuickstartShutdown',['../group__groupQuickstart.html#ga495a0f5779a61e782d7929b8fafd994c',1,'ccx_quickstart.h']]],
+  ['ccxquickstarttransmitvariablelength',['ccxQuickstartTransmitVariableLength',['../group__groupQuickstart.html#ga70dbe544da0ecda47a51f54e5ca49ac3',1,'ccx_quickstart.h']]],
+  ['ccxreadbyte',['ccxReadByte',['../group__groupCCx.html#ga6158155b9e5ed43230a7ccd9dc8a6a55',1,'ccx_api.h']]],
+  ['ccxreadbytes',['ccxReadBytes',['../group__groupCCx.html#gaed06f01828ec6fed8662312aa2af118b',1,'ccx_api.h']]],
+  ['ccxreadstatusregister',['ccxReadStatusRegister',['../group__groupCCx.html#ga8e8d3bee814c086a70d7ac8d24596fa1',1,'ccx_api.h']]],
+  ['ccxreset',['ccxReset',['../group__groupCCx.html#gac530534f47ca329f1d6d049724381c5f',1,'ccx_api.h']]],
+  ['ccxruntests',['ccxRunTests',['../group__groupCCx.html#ga02703e21b35eae20da5941e8b791ae10',1,'ccx_api.h']]],
+  ['ccxshutdown',['ccxShutdown',['../group__groupCCx.html#gac436b0fabab631f1938c1206fb48ce0e',1,'ccx_api.h']]],
+  ['ccxspidelay25us',['ccxSpiDelay25us',['../group__groupSpiHw.html#ga9aa967fef0486971ef10e7bbc3378f78',1,'ccx_spi.h']]],
+  ['ccxspiinit',['ccxSpiInit',['../group__groupSpiHw.html#ga195f83026d3def3fec3bb132bf3dcfa4',1,'ccx_spi.h']]],
+  ['ccxspipinchipselectset',['ccxSpiPinChipSelectSet',['../group__groupSpiHw.html#gab48d1a41d2154122e7f4aae570a1db6b',1,'ccx_spi.h']]],
+  ['ccxspipinslaveoutread',['ccxSpiPinSlaveOutRead',['../group__groupSpiHw.html#ga0d09cc844a503ff740bed4ed081f0df4',1,'ccx_spi.h']]],
+  ['ccxspishutdown',['ccxSpiShutdown',['../group__groupSpiHw.html#ga4ee589c5868eedad1243cfc2a1e83a4b',1,'ccx_spi.h']]],
+  ['ccxspitransaction',['ccxSpiTransaction',['../group__groupSpiHw.html#gab452f18ffa5534ea0f01522fd8d80b66',1,'ccx_spi.h']]],
+  ['ccxstrobe',['ccxStrobe',['../group__groupCCx.html#gaae506ab7b33ce31b7a10af36984180db',1,'ccx_api.h']]],
+  ['ccxwritebyte',['ccxWriteByte',['../group__groupCCx.html#ga18997ae6a5051049ade1b8b5fbecf806',1,'ccx_api.h']]],
+  ['ccxwritebytes',['ccxWriteBytes',['../group__groupCCx.html#gaa05c99e7cf8c906819bdcb90105ee6c2',1,'ccx_api.h']]]
+];
