@@ -1,11 +1,11 @@
-# CCxxxx
+# CCx
 
 Note Doxygen generated HTML can be found [here](http://alanbarr.github.io/CCx).
 
-This is a generic API initially targeting TI's CC110L/CC1101 line of RF
-transceivers.  
-It tries to wrap up some of the quirks in dealing with these
-components, so they they don't have to be repeated for each MCU port.
+This driver aims to provide a generic API for Texas Instrument's CC110L/CC1101
+line of RF transceivers.
+It tries to wrap up some of the quirks in dealing with these components, so they
+they don't have to be repeated for each MCU port.
 
 As TI have made many of the registers common across the CC1100 and CC2500 range,
 this driver should be compatible with other parts. Please notes that it is
@@ -17,7 +17,7 @@ examples.
 This driver has three core modules:
 
 * **CCxxxx**
-The abstraction layer which should provide a platform independant
+The abstraction layer which should provide a platform independent
 interface to the CC1101/CCxxxx.
 
 * **QuickStart**
@@ -73,12 +73,18 @@ Ensure that you include `ccx_quickstart.h` in your relevant C files.
 The following variables can be set in your Makefile before sourcing `src/ccx.mk`
 to provide some convenient debugging.
 
-* Set CCX_LOG_ERRORS to `1` to enable a user defined logging function 
+* Set `CCX_LOG_ERRORS` to `1` to enable a user defined logging function 
 (@ref ccxErrorLog) to be called when an error is encountered.
 * Set `CCX_TESTS` to `1` to compile in a small group of tests.  
 These can be called with @ref ccxRunTests.
 
-# CC1101 Resources
+# Resources
+## CC1101
 * [CC1101 Datasheet](http://www.ti.com/lit/gpn/cc1101)
-* [SPI Design Note DN503](http://www.ti.com/lit/an/swra112b/swra112b.pdf)
+
+## CC110L
+* [CC110L Datasheet](http://www.ti.com/lit/ds/symlink/cc110l.pdf)
+
+## Family
+* [SPI Design Note DN503 (CC1100/CC1101/CC1150/CC2500/CC2550)](http://www.ti.com/lit/an/swra112b/swra112b.pdf)
 * [MSP430 Interface to CC1100/2500 Code LibraryTI (slaa235a)](http://www.ti.com/general/docs/litabsmultiplefilelist.tsp?literatureNumber=slaa325a)
