@@ -8,13 +8,13 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-45200435-3');
+  gtag('config', 'UA-45200435-3', { 'anonymize_ip': true });
 </script>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CCxxxx Driver: CCxxxx</title>
+<title>CCxxxx Driver: CCx</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,16 +69,16 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">CCxxxx </div>  </div>
+<div class="title">CCx </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Note Doxygen generated HTML can be found <a href="http://alanbarr.github.io/CCx">here</a>.</p>
-<p>This is a generic API initially targeting TI's CC110L/CC1101 line of RF transceivers. It tries to wrap up some of the quirks in dealing with these components, so they they don't have to be repeated for each MCU port.</p>
+<p>This driver aims to provide a generic API for Texas Instrument's CC110L/CC1101 line of RF transceivers. It tries to wrap up some of the quirks in dealing with these components, so they they don't have to be repeated for each MCU port.</p>
 <p>As TI have made many of the registers common across the CC1100 and CC2500 range, this driver should be compatible with other parts. Please notes that it is possible CC110L/CC1101 specific features are used in this driver and the examples.</p>
 <h1>Modules</h1>
 <p>This driver has three core modules:</p>
 <ul>
-<li><b>CCxxxx</b> The abstraction layer which should provide a platform independant interface to the CC1101/CCxxxx.</li>
+<li><b>CCxxxx</b> The abstraction layer which should provide a platform independent interface to the CC1101/CCxxxx.</li>
 <li><b>QuickStart</b> Convenience functions which depend on the CCxxxx abstraction layer. They demonstrate one particular configuration of the device, using the register configurations from TI's slaa325a example code.</li>
 <li><b>SPI</b> The hardware specific part of this driver and will need to be tailored for the Microcontroller being used. The functionality required to be implemented can be found in <code><a class="el" href="ccx__spi_8h.html" title="Provides the function prototypes for interfacing with the CCxxxx over SPI. See SPI Hardware Implement...">src/spi/ccx_spi.h</a></code>. Some example implementations of this can be found in <code>src/spi/ports</code>.</li>
 </ul>
@@ -109,13 +109,21 @@ $(function() {
 <h2>Debug</h2>
 <p>The following variables can be set in your Makefile before sourcing <code>src/ccx.mk</code> to provide some convenient debugging.</p>
 <ul>
-<li>Set CCX_LOG_ERRORS to <code>1</code> to enable a user defined logging function (<a class="el" href="group__groupCCx.html#ga2e41df7efa7496e321ec4748e6144aee">ccxErrorLog</a>) to be called when an error is encountered.</li>
+<li>Set <code>CCX_LOG_ERRORS</code> to <code>1</code> to enable a user defined logging function (<a class="el" href="group__groupCCx.html#ga2e41df7efa7496e321ec4748e6144aee">ccxErrorLog</a>) to be called when an error is encountered.</li>
 <li>Set <code>CCX_TESTS</code> to <code>1</code> to compile in a small group of tests. These can be called with <a class="el" href="group__groupCCx.html#ga02703e21b35eae20da5941e8b791ae10">ccxRunTests</a>.</li>
 </ul>
-<h1>CC1101 Resources</h1>
+<h1>Resources</h1>
+<h2>CC1101</h2>
 <ul>
 <li><a href="http://www.ti.com/lit/gpn/cc1101">CC1101 Datasheet</a></li>
-<li><a href="http://www.ti.com/lit/an/swra112b/swra112b.pdf">SPI Design Note DN503</a></li>
+</ul>
+<h2>CC110L</h2>
+<ul>
+<li><a href="http://www.ti.com/lit/ds/symlink/cc110l.pdf">CC110L Datasheet</a></li>
+</ul>
+<h2>Family</h2>
+<ul>
+<li><a href="http://www.ti.com/lit/an/swra112b/swra112b.pdf">SPI Design Note DN503 (CC1100/CC1101/CC1150/CC2500/CC2550)</a></li>
 <li><a href="http://www.ti.com/general/docs/litabsmultiplefilelist.tsp?literatureNumber=slaa325a">MSP430 Interface to CC1100/2500 Code LibraryTI (slaa235a)</a> </li>
 </ul>
 </div></div><!-- contents -->

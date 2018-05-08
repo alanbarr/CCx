@@ -171,5 +171,5 @@ var searchData=
   ['ccxstrobe',['ccxStrobe',['../group__groupCCx.html#gaae506ab7b33ce31b7a10af36984180db',1,'ccx_api.h']]],
   ['ccxwritebyte',['ccxWriteByte',['../group__groupCCx.html#ga18997ae6a5051049ade1b8b5fbecf806',1,'ccx_api.h']]],
   ['ccxwritebytes',['ccxWriteBytes',['../group__groupCCx.html#gaa05c99e7cf8c906819bdcb90105ee6c2',1,'ccx_api.h']]],
-  ['ccxxxx',['CCxxxx',['../index.html',1,'']]]
+  ['ccx',['CCx',['../index.html',1,'']]]
 ];
